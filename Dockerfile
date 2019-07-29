@@ -1,6 +1,6 @@
 FROM docker:latest
 LABEL MAINTAINER="KML VISION, devops@kmlvision.com"
 
-RUN apk add --no-cache py-pip
+RUN apk add --no-cache py-pip curl
 # install docker-compose on top
 RUN pip install docker-compose
