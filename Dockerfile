@@ -1,4 +1,4 @@
-FROM docker:stable
+FROM docker:latest
 LABEL MAINTAINER="KML VISION, devops@kmlvision.com"
 
 RUN apk add --no-cache py-pip curl python3-dev libffi-dev openssl-dev gcc libc-dev make
